@@ -17,7 +17,7 @@ Use a Browser on your local machine to go to:
 localhost:${port}  (prefix w/ https:// if using password)
 "
 
-target_dir="/scratch/$USER/gml-teaching-2025/data"
+target_dir="/scratch/$USER/gml-teaching-2026/data"
 softlink_name="/data/module2/data"
 
 if [ ! -d "$target_dir" ]; then
@@ -28,5 +28,5 @@ fi
 # https://stackoverflow.com/questions/58424974/anaconda-importerror-usr-lib64-libstdc-so-6-version-glibcxx-3-4-21-not-fo
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib
 
-cd /scratch/$USER/gml-teaching-2025
+cd /scratch/$USER/gml-teaching-2026
 jupyter notebook --no-browser --port=${port} --ip=0.0.0.0
