@@ -51,7 +51,7 @@ An overview of the materials to be covered in this course:
 Copy and paste each of the following lines into your terminal once you have logged into the workshop server:
 * ```/software/bin/micromamba shell init```
 * ```source ~/.bashrc```
-* ```micromamba activate /software/conda-envs/winter_school_2026```
+* ```micromamba activate /software/conda-envs/gml-teaching```
 * ```git clone https://github.com/GenomicsMachineLearning/gml-teaching-2026```
 * ```~/qimr-teaching-2024/runme.sh```
 
@@ -125,12 +125,12 @@ The steps are:
 
 MacOS:
 ```
-$ conda env create --subdir osx-64 --name gml-teaching-2026 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --name gml-teaching --file=environment-macos.yml -y
 ```
 
 In a custom directory:
 ```
-$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/gml-teaching-2026 --file=environment-macos.yml -y
+$ conda env create --subdir osx-64 --prefix [some-directory]/conda-envs/gml-teaching --file=environment-macos.yml -y
 ```
 
 Currently, all dependencies are only available for x86 (Intel). If you are running an M-series CPU 
@@ -140,12 +140,12 @@ Linux:
 
 In your default conda directory:
 ```
-$ conda env create --name gml-teaching-2026 --file=environment-linux.yml -y
+$ conda env create --name gml-teaching --file=environment-linux.yml -y
 ```
 
 In a custom directory:
 ```
-$ conda create --prefix [some-directory]/conda-envs/gml-teaching-2026 --file=environment-linux.yml
+$ conda create --prefix [some-directory]/conda-envs/gml-teaching --file=environment-linux.yml
 ```
 
 ### Recreating the Conda Environment YAML
@@ -181,20 +181,20 @@ replace the calls to "conda" with "micromamba" (if that's what you're using).
 
 MacOS:
 ```
-$ conda create --name gml-teaching-2026 --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
-$ conda activate gml-teaching-2026
+$ conda create --name gml-teaching --subdir osx-64 python=3.10 r-base=4.3 r-devtools -y
+$ conda activate gml-teaching
 ```
 
 Linux:
 ```
-$ conda create --name gml-teaching-2026 python=3.10 r-base=4.3 r-devtools -y
-$ conda activate gml-teaching-2026
+$ conda create --name gml-teaching python=3.10 r-base=4.3 r-devtools -y
+$ conda activate gml-teaching
 ```
 
 HPC:
 ```
-$ micromamba create -p [some-directory]/conda-envs/gml-teaching-2026 python=3.10 r-base=4.3 r-devtools -y
-$ micromamba activate [some-directory]/conda-envs/gml-teaching-2026
+$ micromamba create -p [some-directory]/conda-envs/gml-teaching python=3.10 r-base=4.3 r-devtools -y
+$ micromamba activate [some-directory]/conda-envs/gml-teaching
 ```
 
 ### Installing Managed Dependencies
@@ -233,7 +233,7 @@ gseapy and fastremap.
 An example of copying it from group directory (P3903) to a temporary directory on a local scratch:
 
 ```
-$ conda create --prefix [some-directory]/qimr-teaching-2024/conda-envs/gml-teaching-2026 --clone [some-directory]/qimr-teaching-2024/conda-envs/source-conda-dir
+$ conda create --prefix [some-directory]/qimr-teaching-2024/conda-envs/gml-teaching --clone [some-directory]/qimr-teaching-2024/conda-envs/source-conda-dir
 ```
 
 ### Export Environment File

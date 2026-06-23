@@ -1,4 +1,4 @@
-name: gml-teaching-2026
+name: gml-teaching
 channels:
   - conda-forge
   - bioconda
