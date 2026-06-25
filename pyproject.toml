@@ -8,6 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 spatialdata = {extras = ["extra"], version = "^0.1.2"}
+xarray = ">=2023.12.0,<=2024.7.0"
+spatialdata-plot = "0.1.0"
+spatialdata-io = "0.1.2"
+numba = "0.59.1"
+llvmlite = "0.42.0"
+sphinx = ">=7.0,<8"
+numpydoc = ">=1.6"
 torch = "^2.2.2"
 torchvision = "^0.17.2"
 lightning = "^2.2.2"
@@ -19,11 +26,15 @@ sopa = {extras = ["baysor", "cellpose", "snakemake", "tangram"], version = "^1.0
 jupyterlab = "^4.2.1"
 ipywidgets = "^8.1.2"
 stlearn = {git = "https://github.com/xiao233333/stLearn.git", branch = "update-dependency"}
+gsMap = {git = "https://github.com/JianYang-Lab/gsMap.git"}
 monkeybread = "^1.0.3"
 harmonypy = "^0.0.9"
 matplotlib = "<3.9.0"
 netgraph = "^4.13.2"
 python-louvain = "^0.16"
+transformers = "^4.44.2"
+timm = "^1.0.9"
+einops = "^0.8.0"
 
 [build-system]
 requires = ["poetry-core"]

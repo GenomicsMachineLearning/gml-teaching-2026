@@ -53,7 +53,7 @@ Copy and paste each of the following lines into your terminal once you have logg
 * ```source ~/.bashrc```
 * ```micromamba activate /software/conda-envs/gml-teaching```
 * ```git clone https://github.com/GenomicsMachineLearning/gml-teaching-2026```
-* ```~/qimr-teaching-2024/runme.sh```
+* ```~/qimr-teaching-2026/runme.sh```
 
 The output will look something like:
 ```bash
@@ -101,7 +101,10 @@ localhost:3502  (prefix w/ https:// if using password)
 
 # Module 006 - Deep Learning 
 
-* [Deep Learning](004-deep-learning/Deep_learning_01.ipynb).
+* [Deep Learning 01 - Autoencoders & CNNs](004-deep-learning/Deep_learning_01.ipynb).
+* [Deep Learning 02 - Spatial autoencoder & transfer learning](004-deep-learning/Deep_learning_02.ipynb).
+* [Deep Learning 03 - Transformer for gene expression (genes as tokens)](004-deep-learning/Deep_learning_03_transformer_gene_expression.ipynb).
+* [Deep Learning 04 - Vision Transformer for H&E spatial data (patches &rarr; expression)](004-deep-learning/Deep_learning_04_vit_HE_spatial.ipynb).
 
 # Additional Information (Not Required for Course Participants)
 

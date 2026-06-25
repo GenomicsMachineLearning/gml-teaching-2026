@@ -1,4 +1,11 @@
 spatialdata[extra]>=0.1.2
+xarray>=2023.12.0,<=2024.7.0
+spatialdata-plot==0.1.0
+spatialdata-io==0.1.2
+numba==0.59.1
+llvmlite==0.42.0
+sphinx>=7.0,<8
+numpydoc>=1.6
 fastremap==1.13.2
 torch>=2.2.2
 torchvision>=0.17.2
@@ -17,4 +24,5 @@ netgraph>=4.13.2
 python-louvain>=0.16
 mmcci
 git+https://github.com/xiao233333/stLearn.git@update-dependency
+git+https://github.com/JianYang-Lab/gsMap.git
 -e .
