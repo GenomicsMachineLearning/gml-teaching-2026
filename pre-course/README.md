@@ -9,6 +9,7 @@ participants who want more context before the workshop.
 
 ## Suggested Reading Time
 
+- Foundations: only if R, Python, or JupyterLab are new to you
 - Module 000: 25-30 minutes
 - Module 001: 20-25 minutes
 - Module 002: 25-30 minutes
@@ -16,6 +17,35 @@ participants who want more context before the workshop.
 - Module 006: 35-45 minutes
 
 Total core reading time is about 2-3 hours.
+
+## Foundations - R, Python, and JupyterLab
+
+Expected background:
+
+- The course runs code in R and Python inside JupyterLab notebooks. If any of
+  these are new, work through one reading or video below before the workshop.
+
+Core reading:
+
+- [Python official tutorial](https://docs.python.org/3/tutorial/)
+  - Focus on variables, data types, lists and dicts, control flow, functions,
+    and importing modules.
+- [R for Data Science (2e)](https://r4ds.hadley.nz/)
+  - Focus on vectors, data frames, and the basic tidyverse workflow.
+- [JupyterLab documentation](https://jupyterlab.readthedocs.io/en/stable/)
+  - Focus on the interface, running cells, kernels, and managing notebooks.
+
+Video walkthroughs (if you prefer watching):
+
+- [Learn Python - Full Course for Beginners (freeCodeCamp)](https://www.youtube.com/watch?v=rfscVS0vtbw)
+- [R Programming Tutorial - Learn the Basics of Statistical Computing (freeCodeCamp)](https://www.youtube.com/watch?v=_V8eKsto3Ug)
+- [Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough (Corey Schafer)](https://www.youtube.com/watch?v=HW29067qVWk)
+
+Why it matters:
+
+- Every later module runs code in notebooks. A small amount of comfort with the
+  language and the notebook interface makes the analysis steps much easier to
+  follow.
 
 ## Module 000 - Single-Cell RNA-seq Data Analysis
 
@@ -153,12 +183,12 @@ Core reading:
 - [PyTorch basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)
   - Focus on tensors, datasets, dataloaders, model definition, optimization,
     and training loops.
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-  - Read the abstract and introduction for the motivation behind attention and
-    transformer models.
-- [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929)
-  - Read the abstract and introduction to understand how image patches become
-    transformer tokens.
+- [Attention in transformers, visually explained (3Blue1Brown)](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+  - Watch for an intuitive, visual explanation of attention and how transformer
+    models work.
+- [An Image is Worth 16x16 Words: Vision Transformer explained (Yannic Kilcher)](https://www.youtube.com/watch?v=TrdevFK_am4)
+  - Watch for a walkthrough of how image patches become transformer tokens in
+    the Vision Transformer.
 
 Optional reading:
 
