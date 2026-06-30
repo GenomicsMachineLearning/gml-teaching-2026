@@ -3,7 +3,7 @@
 node=$(hostname -I | cut -f1 -d' ')
 user=$(whoami)
 
-for port in {3500..3700}; do
+for port in $(shuf -i 3000-4000); do
   if ! ss -lptn | grep -q ":$port"; then
     echo "Port $port is available"
     break
