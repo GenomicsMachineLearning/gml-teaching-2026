@@ -47,7 +47,7 @@ Why it matters:
   language and the notebook interface makes the analysis steps much easier to
   follow.
 
-## Theme 000 - Single-Cell RNA-seq Data Analysis (Optional reading)
+## Theme 000 - Single-Cell RNA-seq Data Analysis (Optional reading, not included in the classes)
 
 Expected background:
 
@@ -74,7 +74,7 @@ Why it matters:
 - The course starts from standard single-cell analysis ideas before adding
   spatial coordinates, images, tissue structure, and deep learning models.
 
-## Module 001 - Spatial Single-Cell Visualization
+## Theme 001 - Spatial Single-Cell Visualization
 
 Expected background:
 
