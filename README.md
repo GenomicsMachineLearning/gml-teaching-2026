@@ -3,6 +3,9 @@
 
 # GML Spatial and Machine Learning Teaching Material 2026
 
+Before the course, see the [pre-course reading guide](pre-course/README.md) for
+2-3 hours of background reading mapped to the modules.
+
 An overview of the materials to be covered in this course:
 * [Module 000 - Single Cell RNAseq Data Analysis](#Module-000---Single-Cell-RNAseq-Data-Analysis)
   * Single Cell Data Analysis
@@ -17,7 +20,7 @@ An overview of the materials to be covered in this course:
   * Community Analysis
   * Cell-Cell Interaction Analysis
   * Xiao & Quan
-* [Module 006 - Deep Learning](#Module-004---Deep-Learning)
+* [Module 006 - Deep Learning](#Module-006---Deep-Learning)
   * Xiao & Quan
 
 # Data
@@ -76,28 +79,26 @@ localhost:3502  (prefix w/ https:// if using password)
 
 # Module 001 - Spatial Single Cell 
 
-* [Spatial Data Visualisation](./001-spatial-single-cell/single_cell_visualisations.ipynb).
+* [Spatial Data Visualisation](./001-spatial-single-cell/1.1_python_single_cell_visualisations.ipynb).
 
 # Module 002 - Clustering and Cell Types
 
-* [Clustering and Cell Typing](002-clustering-cell-typing/2.2_Workshop_Cell_Typing_Example.ipynb).
+* [Clustering and Cell Typing](002-clustering-cell-typing/2.1_ST_Cell_Typing_Tutorial.ipynb).
 
 # Module 003 - Downstream Analysis 
 
-* [Cell community identification](./003-downstream-analysis/3.2_hoodscanR.ipynb).
-* [Neighborhood Coordination and Cell Community Identification](./003-downstream-analysis/3.3_neighborhood.ipynb).
-* [Cell-Cell Interactions CellChat](./003-downstream-analysis/3.4_CCI_CellChat.ipynb).
-* [Cell-Cell Interactions stLearn](./003-downstream-analysis/3.5_CCI_stLearn_MMCCI.ipynb).
+* [Cell community identification](./003-downstream-analysis/3.1_hoodscanR.ipynb).
+* [Neighborhood Coordination and Cell Community Identification](./003-downstream-analysis/3.2_neighborhood.ipynb).
+* [Cell-Cell Interactions CellChat](./003-downstream-analysis/3.3_CCI_CellChat.ipynb).
+* [Cell-Cell Interactions stLearn](./003-downstream-analysis/3.4_CCI_stLearn_MMCCI.ipynb).
 
 # Module 004 - Spatial Statistics
 
-* [Tissue Segmentation](004-spatial-statistics/4.1-tissue_segmentation.ipynb).
-* [Spatial Statistics](004-spatial-statistics/4.2-spatial-statistics.ipynb).
+Not present in this checkout.
 
 # Module 005 - Spatial Proteomics 
 
-* [Mapping CODEX in Visium Data](./005-spatial-proteomics/mapping_CODEX_Visium.ipynb).
-* [Spatial Proteomics Analysis for CODEX Data](./005-spatial-proteomics/CODEX_analysis.ipynb).
+Not present in this checkout.
 
 # Module 006 - Deep Learning 
 
@@ -245,4 +246,3 @@ In order to use the environments again, save the conda environment file and remo
 ```
 $ conda env export > environment-[linux|windows|macos].yml
 ```
-
