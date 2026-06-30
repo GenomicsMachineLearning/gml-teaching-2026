@@ -8,24 +8,24 @@ If time is limited, read the core links first. The optional links are useful for
 participants who want more context before the workshop.
 
 ## Suggested Reading Time
+- Basic coding tutorials: only need to read this part if R, Python, or JupyterLab are new to you
+- Theme single cell 000: 25-30 minutes
+- Theme spatial 001: 20-25 minutes
+- Theme spatial 002: 25-30 minutes
+- Theme spatial 003: 30-40 minutes
+- Theme spatial 006: 35-45 minutes
 
-- Foundations: only if R, Python, or JupyterLab are new to you
-- Module 000: 25-30 minutes
-- Module 001: 20-25 minutes
-- Module 002: 25-30 minutes
-- Module 003: 30-40 minutes
-- Module 006: 35-45 minutes
 
 Total core reading time is about 2-3 hours.
 
-## Foundations - R, Python, and JupyterLab
+## Foundations - R, Python, and JupyterLab (Skip this if you know basic R, Python)
 
 Expected background:
 
 - The course runs code in R and Python inside JupyterLab notebooks. If any of
   these are new, work through one reading or video below before the workshop.
 
-Core reading:
+Detailed reading:
 
 - [Python official tutorial](https://docs.python.org/3/tutorial/)
   - Focus on variables, data types, lists and dicts, control flow, functions,
@@ -47,7 +47,7 @@ Why it matters:
   language and the notebook interface makes the analysis steps much easier to
   follow.
 
-## Module 000 - Single-Cell RNA-seq Data Analysis
+## Theme 000 - Single-Cell RNA-seq Data Analysis
 
 Expected background:
 
@@ -103,7 +103,7 @@ Why it matters:
   image-aware plotting. Reading this first makes the data structures less
   surprising during class.
 
-## Module 002 - Clustering And Cell Typing
+## Theme 002 - Clustering And Cell Typing
 
 Expected background:
 
@@ -134,7 +134,7 @@ Why it matters:
   and biological annotation. The key skill is knowing when a computational
   label is plausible in the tissue context.
 
-## Module 003 - Downstream Spatial Analysis
+## Theme 003 - Downstream Spatial Analysis
 
 Expected background:
 
@@ -167,7 +167,7 @@ Why it matters:
   interpreting spatial neighborhoods, ligand-receptor results, and tissue
   context without overclaiming causality.
 
-## Module 006 - Deep Learning
+## Theme 006 - Deep Learning
 
 Expected background:
 
