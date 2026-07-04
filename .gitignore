@@ -1,1 +1,6 @@
 **/data/**
+CellChat.rds
+**/results/**
+test-results/
+*.h5ad
+visium_stlearn.h5ad

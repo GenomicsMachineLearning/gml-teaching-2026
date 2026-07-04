@@ -54,9 +54,9 @@ An overview of the materials to be covered in this course:
 Copy and paste each of the following lines into your terminal once you have logged into the workshop server:
 * ```/software/bin/micromamba shell init```
 * ```source ~/.bashrc```
-* ```micromamba activate /software/conda-envs/gml-teaching```
+* ```micromamba activate /software/conda-envs/envs/gml-teaching```
 * ```git clone https://github.com/GenomicsMachineLearning/gml-teaching-2026```
-* ```~/qimr-teaching-2026/runme.sh```
+* ```~/gml-teaching-2026/runme.sh```
 
 The output will look something like:
 ```bash
