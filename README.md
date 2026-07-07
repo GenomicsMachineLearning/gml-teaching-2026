@@ -246,3 +246,16 @@ In order to use the environments again, save the conda environment file and remo
 ```
 $ conda env export > environment-[linux|windows|macos].yml
 ```
+
+## gsMAP command
+
+gsmap quick_mode \
+--workdir './' \
+ --sample_name 'melanoma_gsmap' \
+--gsMap_resource_dir '/data/module2/gsMap_resource' \
+--hdf5_path ' /data/module2/mel48974_raw.h5ad' \
+--annotation 'cell_type' \
+--data_layer 'count' \
+--sumstats_file ' /data/module2/mel.sumstats.gz' \
+ --trait_name 'mel'
+<img width="448" height="212" alt="image" src="https://github.com/user-attachments/assets/90fb3cd8-c6b2-42fe-9abd-cf2baf5115fd" />
