@@ -9,7 +9,7 @@ participants who want more context before the workshop.
 
 ## Suggested Reading Time
 - Basic coding tutorials: only need to read this part if R, Python, or JupyterLab are new to you
-- Theme single cell 000 (not discussed in the course, prodivded here as an optional reading): 25-30 minutes
+- Theme single cell 000 (not included in the course, provided here as an optional reading for a broad overview of how single cell and spatial data analysis are related): 25-30 minutes
 - Theme spatial 001: 20-25 minutes
 - Theme spatial 002: 25-30 minutes
 - Theme spatial 003: 30-40 minutes
