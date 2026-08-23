@@ -47,7 +47,7 @@ Why it matters:
   language and the notebook interface makes the analysis steps much easier to
   follow.
 
-## Theme 000 - Single-Cell RNA-seq Data Analysis (Optional reading, not included in the classes)
+## Theme 000 - Single-Cell RNA-seq Data Analysis (Optional reading and not included in the practical classes)
 
 Expected background:
 
